@@ -1,0 +1,5 @@
+nums = list(map(int, input().split()))
+total=sum(nums)
+average=total/len(nums)
+print(f'求和: {total}')
+print(f'平均值: {average}')
