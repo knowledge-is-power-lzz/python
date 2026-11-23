@@ -1,0 +1,5 @@
+a1=int(input())
+q=int(input())
+n=int(input())
+Sn=a1*((1-q**n)/(1-q))
+print(int(Sn))
