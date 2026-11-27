@@ -1,5 +1,0 @@
-A = set(map(int, input().split()))
-B = set(map(int, input().split()))
-print("交集：", A & B)   
-print("并集：", A | B)   
-print("差集 A-B", A - B)  
